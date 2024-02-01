@@ -54,11 +54,18 @@ class Program
     private static void ReadObjectsFromFile(string filePath, Action<List<Order>> outputOrderMethod)
     {
         var xmlDeserializer = new XmlSerializer(typeof(List<Order>));
-
-        using var reader = new FileStream(filePath, FileMode.OpenOrCreate);
-
-        if (xmlDeserializer.Deserialize(reader) is not List<Order> result) return;
-
-        outputOrderMethod(result);
+        
+        try
+        {
+            using var reader = new FileStream(filePath, FileMode.OpenOrCreate);
+            if (xmlDeserializer.Deserialize(reader) is List<Order> result)
+            {
+                outputOrderMethod(result);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 }
