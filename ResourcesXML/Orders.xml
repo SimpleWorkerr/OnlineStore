@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <OrderDate>2024-02-01T08:17:01.0406556Z</OrderDate>
+    <Client>
+      <FirstName>Иван</FirstName>
+      <LastName>Иванов</LastName>
+      <Patronymic>Иванович</Patronymic>
+      <Orders />
+    </Client>
+    <Products>
+      <Product>
+        <Name>Стул</Name>
+        <Description>Чёрный стул</Description>
+        <Price>23324</Price>
+        <AdditionDate>0001-01-01T00:00:00</AdditionDate>
+        <Count>23</Count>
+        <Categories>
+          <Category>
+            <Name>Фурнитура</Name>
+            <Description>Предметы мебели</Description>
+            <Products />
+          </Category>
+        </Categories>
+        <Orders />
+      </Product>
+      <Product>
+        <Name>Апельсин</Name>
+        <Description>Обычный апельсин</Description>
+        <Price>234</Price>
+        <AdditionDate>0001-01-01T00:00:00</AdditionDate>
+        <Count>234</Count>
+        <Categories>
+          <Category>
+            <Name>Еда</Name>
+            <Description>Пища для употребления</Description>
+            <Products />
+          </Category>
+        </Categories>
+        <Orders />
+      </Product>
+    </Products>
+  </Order>
+  <Order>
+    <OrderDate>2024-02-01T08:17:01.0850235Z</OrderDate>
+    <Client>
+      <FirstName>FirstName_1</FirstName>
+      <LastName>SecondName_1</LastName>
+      <Patronymic>Patronymic_1</Patronymic>
+      <Orders />
+    </Client>
+    <Products>
+      <Product>
+        <Name>Стул</Name>
+        <Description>Чёрный стул</Description>
+        <Price>23324</Price>
+        <AdditionDate>0001-01-01T00:00:00</AdditionDate>
+        <Count>23</Count>
+        <Categories>
+          <Category>
+            <Name>Фурнитура</Name>
+            <Description>Предметы мебели</Description>
+            <Products />
+          </Category>
+        </Categories>
+        <Orders />
+      </Product>
+      <Product>
+        <Name>Апельсин</Name>
+        <Description>Обычный апельсин</Description>
+        <Price>234</Price>
+        <AdditionDate>0001-01-01T00:00:00</AdditionDate>
+        <Count>234</Count>
+        <Categories>
+          <Category>
+            <Name>Еда</Name>
+            <Description>Пища для употребления</Description>
+            <Products />
+          </Category>
+        </Categories>
+        <Orders />
+      </Product>
+    </Products>
+  </Order>
+</ArrayOfOrder>

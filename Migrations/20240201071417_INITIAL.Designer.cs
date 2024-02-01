@@ -12,8 +12,8 @@ using OnlineStore;
 namespace OnlineStore.Migrations
 {
     [DbContext(typeof(OnlineStoreDbContext))]
-    [Migration("20240131152230_AddCategories")]
-    partial class AddCategories
+    [Migration("20240201071417_INITIAL")]
+    partial class INITIAL
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
